@@ -8,7 +8,7 @@
 A modern **expense tracker app** built with Next.js, Supabase, TailwindCSS, and Vercel.  
 It helps you manage your **income, expenses, and savings** in a clean and responsive UI.  
 
-👉 **Live Demo:** [https://monexa.vercel.app](https://monexa.vercel.app)
+👉 **Live Demo:** [https://monexa.vercel.app](https://vercel-xi-weld.vercel.app/)
 
 ---
 
