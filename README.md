@@ -115,7 +115,7 @@ This project is deployed on **Vercel**. To deploy your own copy:
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 4. Trigger a deploy (push to `main` or deploy from Vercel UI).
 
-Your site will be available at `https://vercel-xi-weld.vercel.app/`.
+Your site will be available at `https://projectname.vercel.app/`.
 
 ---
 
@@ -138,5 +138,5 @@ This project is licensed under the **MIT License**.
 ## 👤 Author
 
 Built with ❤️ by **Biprajit**  
-GitHub: [Biprajit09](https://github.com/Biprajit09) • Live: [https://monexa.vercel.app](https://monexa.vercel.app)
+GitHub: [Biprajit09](https://github.com/Biprajit09) • Live: [https://Trackwise.vercel.app](https://vercel-xi-weld.vercel.app/)
 
