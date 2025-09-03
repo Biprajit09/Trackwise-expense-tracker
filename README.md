@@ -1,4 +1,4 @@
-# Monexa – Expense Tracker 💰
+# Trackwise – Expense Tracker 💰
 
 [![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=next.js)](https://nextjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
@@ -8,7 +8,7 @@
 A modern **expense tracker app** built with Next.js, Supabase, TailwindCSS, and Vercel.  
 It helps you manage your **income, expenses, and savings** in a clean and responsive UI.  
 
-👉 **Live Demo:** [https://monexa.vercel.app](https://vercel-xi-weld.vercel.app/)
+👉 **Live Demo:** [https://TrackWise.vercel.app](https://vercel-xi-weld.vercel.app/)
 
 ---
 
