@@ -115,7 +115,7 @@ This project is deployed on **Vercel**. To deploy your own copy:
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 4. Trigger a deploy (push to `main` or deploy from Vercel UI).
 
-Your site will be available at `https://<your-project-name>.vercel.app`.
+Your site will be available at `https://vercel-xi-weld.vercel.app/`.
 
 ---
 
