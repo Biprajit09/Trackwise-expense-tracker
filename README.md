@@ -8,7 +8,7 @@
 A modern **expense tracker app** built with Next.js, Supabase, TailwindCSS, and Vercel.  
 It helps you manage your **income, expenses, and savings** in a clean and responsive UI.  
 
-👉 **Live Demo:** [monexa.vercel.app](https://vercel-xi-weld.vercel.app/)
+👉 **Live Demo:** [https://monexa.vercel.app](https://monexa.vercel.app)
 
 ---
 
@@ -26,7 +26,7 @@ It helps you manage your **income, expenses, and savings** in a clean and respon
 
 ## 🛠️ Tech Stack
 
-- **Framework:** [Next.js 13+](https://nextjs.org/) (App Router)  
+- **Framework:** [Next.js 13+ (App Router)](https://nextjs.org/)  
 - **Database & Auth:** [Supabase](https://supabase.com/)  
 - **Styling:** [TailwindCSS](https://tailwindcss.com/)  
 - **Icons & Animations:** [Lucide React](https://lucide.dev/), [Framer Motion](https://www.framer.com/motion/)  
@@ -39,47 +39,104 @@ It helps you manage your **income, expenses, and savings** in a clean and respon
 Follow these steps to set up Monexa locally:
 
 ### 1. Clone the repository
-
-git clone https://github.com/your-username/monexa.git
-cd monexa
+```bash
+git clone https://github.com/Biprajit09/monexa-expense-tracker.git
+cd monexa-expense-tracker
+```
 
 ### 2. Install dependencies
-
+```bash
 npm install
+```
 
 ### 3. Set up environment variables
+Create a `.env.local` file in the project root and add your Supabase credentials:
 
+```env
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+```
+
 
 ### 4. Run the development server
-
+```bash
 npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
 
 ## 📂 Project Structure
 
-monexa/
+```
+monexa-expense-tracker/
+├── .next
+├── .vercel
 ├── app/                # Next.js App Router
-│   ├── dashboard/      # Dashboard pages
-│   ├── expenses/       # Expense management
-│   ├── income/         # Income tracking
-│   └── profile/        # User profile
+│   ├── about
+│   ├── categories
+│   ├── components
+│   ├── dashboard
+│   ├── expenses
+│   ├── income
+│   ├── login
+│   ├── logout
+│   ├── profile
+│   ├── signup
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   ├── page.js
+│   └── page.metadata.js
 ├── components/         # Reusable UI components
-├── lib/                # Supabase client & helpers
+├── lib/                # Supabase client & helpers (supabaseClient.js)
+├── node_modules
 ├── public/             # Static assets
-├── styles/             # Global styles
+├── .env                # (ignored) local env file
 ├── .gitignore
+├── env.example
+├── jsconfig.json
+├── next-env.d.ts
+├── next.config.mjs
+└── package.json
+```
 
-
+---
 
 ## 🌍 Deployment
 
-The app is deployed on Vercel. You can deploy your own version easily by linking your GitHub repo to Vercel.
+This project is deployed on **Vercel**. To deploy your own copy:
+
+1. Push your repo to GitHub.
+2. Connect the repository in Vercel dashboard.
+3. Add these Environment Variables in Vercel (Project → Settings → Environment Variables):
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+4. Trigger a deploy (push to `main` or deploy from Vercel UI).
+
+Your site will be available at `https://<your-project-name>.vercel.app`.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+1. Fork the repo  
+2. Create a branch (`feature/your-feature`)  
+3. Commit your changes  
+4. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
 
 ## 👤 Author
 
-Built with ❤️ by Biprajit
-Deployed on Vercel
-
-
+Built with ❤️ by **Biprajit**  
+GitHub: [Biprajit09](https://github.com/Biprajit09) • Live: [https://monexa.vercel.app](https://monexa.vercel.app)
 
